@@ -17,11 +17,6 @@ class Solution {
         if(s.length()!= t.length()) return false;
         Map<Character, Integer> sp = freqCounter(s);
         Map<Character, Integer> tp = freqCounter(t);
-        // for(Character items : sp.keySet()){
-        //     if(!tp.containsKey(items)) return false;
-        //     if(tp.containsKey(items)&&(tp.get(items)!= sp.get(items))) return false;
-        // }
-        // return true;
         return sp.equals(tp);
 
     }
