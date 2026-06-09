@@ -1,3 +1,5 @@
+import java.util.HashMap;
+import java.util.Map;
 class Solution {
     public Map<Character, Integer> freqCounter(String s) {
         Map<Character, Integer> mp = new HashMap<>();
